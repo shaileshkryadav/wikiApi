@@ -1,0 +1,53 @@
+*{
+    margin:0;
+}
+
+body{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#F400FF', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border:2px solid blue;
+    height:100vh;
+}
+.head{
+    margin: auto;
+}
+.form__section{
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+}
+
+.form__item{
+    display: flex;
+    margin:300px 0px 200px 0px;
+    flex-direction: column;
+    width:40%;
+}
+input{
+    marign-top:5px;
+    margin-bottom: 6px;
+    padding:4px;
+}
+
+
